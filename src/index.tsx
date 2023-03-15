@@ -1,3 +1,4 @@
+import 'path-browserify';
 import ReactDOM from 'react-dom/client'
 import "./styles/tailwind.css";
 import App from "./App";
