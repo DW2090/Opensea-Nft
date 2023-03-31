@@ -2,6 +2,7 @@ import { OpenSeaAsset } from "opensea-js/lib/types";
 import { useState } from "react";
 import NFTDetailModal from "./NftDetailModal";
 
+//NFT card component
 const NftCard: React.FC<{ nft: OpenSeaAsset }> = ({ nft }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
