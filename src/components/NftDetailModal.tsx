@@ -18,7 +18,7 @@ const NFTDetailModal: React.FC<NFTDetailModalProps> = ({
   };
 
   const showDescription = () => {
-    return nft.name
+    return nft.name;
   }
 
   return (
