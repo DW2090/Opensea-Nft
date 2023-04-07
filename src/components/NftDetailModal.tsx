@@ -17,6 +17,10 @@ const NFTDetailModal: React.FC<NFTDetailModalProps> = ({
     window.open(nft.openseaLink, "_blank");
   };
 
+  const showDescription = () => {
+    console.log(nft.name)
+  }
+
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
       <div className="p-4">
