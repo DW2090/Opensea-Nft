@@ -5,7 +5,11 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: npm
+    directory: "/"
     schedule:
-      interval: "daily"
+      interval: daily
+      time: "21:00"
+    reviewers:
+      - "alexlu0917"
+      - "cooldev900"
