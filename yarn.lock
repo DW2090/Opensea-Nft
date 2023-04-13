@@ -9401,10 +9401,10 @@ open@^8.0.9, open@^8.4.0:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
-opensea-js@^4.0.19:
-  version "4.0.20"
-  resolved "https://registry.yarnpkg.com/opensea-js/-/opensea-js-4.0.20.tgz#c2c579c367fc9fddf6a25f0fbe5600cb18d6f2b8"
-  integrity sha512-2/abEkWIimGDWpnViSi9HZFjD7XhfviISCYpFM1cily9XvA1y4b4cUUUn1cu/iCuQW5Ef9Pb0+WuLMW8xvu49w==
+opensea-js@^4.0.24:
+  version "4.0.24"
+  resolved "https://registry.yarnpkg.com/opensea-js/-/opensea-js-4.0.24.tgz#6dc8e8c4cc84a6ad4d68c23d84a6153de4c20215"
+  integrity sha512-U58PtaL9iwNd1HkmLxTnB9RLH7XXrye5yTsQv1T1syuGJqlqZ3SMZ3+z+uDaark8q6q7tOV7Z6LAgNH1rdjWEA==
   dependencies:
     "@opensea/seaport-js" "^1.0.10"
     ajv "^8.11.0"
